@@ -8,14 +8,14 @@
 
    - With Python venv
 
-        ```sh
+        ```bash
             python -m venv venv
             source venv/bin/activate
         ```
 
    - With Conda
 
-        ```sh
+        ```bash
             conda create --name myenv python=3.12
             conda activate myenv
         ```
@@ -24,7 +24,7 @@
    
 When your environment is successfully activated, run this command:
 
-```sh
+```bash
     pip install -r requirements.txt
 ```
 
@@ -32,13 +32,13 @@ When your environment is successfully activated, run this command:
 
 Execute this command in your terminal with the environment activated:
 
-```sh
+```bash
     python Q12.py
 ```
 
 You should get an output like this:
 
-```sh
+```bash
     UTC time: 2024-11-25 11:22:27.064866 and Local time: 2024-11-25 11:22:27.064866+01:00
     Timezone: Europe/Luxembourg
     Timezone name: CET
